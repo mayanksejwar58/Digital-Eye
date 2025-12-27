@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Digital Eye</string>
+
+    <!-- Accessibility Service Description -->
+    <string name="accessibility_service_description">
+        Digital Eye accessibility service for assistive features
+    </string>
+</resources>
