@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "355086666674",
+    "project_id": "digital-eye-482312",
+    "storage_bucket": "digital-eye-482312.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355086666674:android:a00e7ae53ec126883b32ab",
+        "android_client_info": {
+          "package_name": "com.example.digital_eye_new"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355086666674-earurpiuhoebfquva647l2l66489viu5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJVnEv1OfKXNi3LaWtTVfjFB1A6bTBpys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355086666674-earurpiuhoebfquva647l2l66489viu5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
