@@ -7,20 +7,22 @@ class BatteryService {
 
   static Future<void> speakBatteryThenTime() async {
     try {
-      final int batteryLevel = await _battery.batteryLevel;
+      final batteryLevel = await _battery.batteryLevel;
       await TtsService.speakHindi(
         "बैटरी $batteryLevel प्रतिशत है",
       );
 
-      await Future.delayed(const Duration(seconds: 1));
-
+      await Future.delayed(const Duration(milliseconds: 2500 ));
 
       final now = DateTime.now();
-      final time = DateFormat('hh:mm a').format(now);
+      final time =
+          DateFormat('hh:mm a', 'en_US').format(now);
+
       await TtsService.speakHindi(
         "समय $time है",
       );
-    } catch (_) {
+    } catch (e) {
+      print("Battery / Time issue: $e");
     }
   }
 }
